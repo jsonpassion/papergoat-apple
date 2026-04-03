@@ -1206,54 +1206,49 @@
   ],
   "clusters": {
     "cv": {
-      "label": "Computer Vision",
+      "label": "Vision",
       "color": "#5b9bd5",
-      "icon": "●"
+      "icon": "👁️"
     },
     "snlp": {
-      "label": "Speech and Natural Language Processing",
-      "color": "#1a3a6b",
-      "icon": "●"
+      "label": "Speech & NLP",
+      "color": "#1a5fb4",
+      "icon": "🗣️"
     },
     "methods": {
-      "label": "Methods and Algorithms",
+      "label": "Methods",
       "color": "#8b5cf6",
-      "icon": "●"
+      "icon": "⚙️"
     },
     "hci": {
-      "label": "Human-Computer Interaction",
+      "label": "HCI",
       "color": "#22a95c",
-      "icon": "●"
+      "icon": "🖥️"
     },
     "health": {
       "label": "Health",
       "color": "#e84393",
-      "icon": "●"
+      "icon": "❤️"
     },
     "privacy": {
       "label": "Privacy",
-      "color": "#6b8e23",
-      "icon": "●"
+      "color": "#8faa2b",
+      "icon": "🛡️"
     },
     "tools": {
-      "label": "Tools, Platforms, Frameworks",
+      "label": "Tools",
       "color": "#e67e22",
-      "icon": "●"
+      "icon": "🔧"
     },
     "data": {
-      "label": "Data Science and Annotation",
+      "label": "Data Science",
       "color": "#1abc9c",
-      "icon": "●"
-    },
-    "fairness": {
-      "label": "Fairness",
-      "color": "#2c5aa0",
-      "icon": "●"
+      "icon": "📊"
     },
     "search": {
-      "label": "Knowledge Bases and Search",
+      "label": "Search",
       "color": "#d35400",
-      "icon": "●"
+      "icon": "🔍"
     }
   }
 }
