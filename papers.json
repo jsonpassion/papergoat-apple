@@ -1014,6 +1014,11 @@
       "type": "lineage"
     },
     {
+      "source": "ferret-ui",
+      "target": "agentbuilder",
+      "type": "lineage"
+    },
+    {
       "source": "evict",
       "target": "epicache",
       "type": "lineage"
@@ -1024,8 +1029,18 @@
       "type": "lineage"
     },
     {
+      "source": "evict",
+      "target": "rattention",
+      "type": "lineage"
+    },
+    {
       "source": "mirror",
       "target": "coarse-grained",
+      "type": "lineage"
+    },
+    {
+      "source": "mirror",
+      "target": "parallel-track",
       "type": "lineage"
     },
     {
@@ -1034,8 +1049,33 @@
       "type": "lineage"
     },
     {
+      "source": "compute-optimal",
+      "target": "memory-efficient-backpropagation",
+      "type": "lineage"
+    },
+    {
+      "source": "roe",
+      "target": "moe-phds",
+      "type": "lineage"
+    },
+    {
+      "source": "roe",
+      "target": "parallel-track",
+      "type": "lineage"
+    },
+    {
       "source": "mobileclip2",
       "target": "manzano",
+      "type": "lineage"
+    },
+    {
+      "source": "mobileclip2",
+      "target": "atoken",
+      "type": "lineage"
+    },
+    {
+      "source": "manzano",
+      "target": "atoken",
       "type": "lineage"
     },
     {
@@ -1054,8 +1094,113 @@
       "type": "lineage"
     },
     {
+      "source": "athena",
+      "target": "uicoder",
+      "type": "lineage"
+    },
+    {
+      "source": "agentbuilder",
+      "target": "mapping",
+      "type": "lineage"
+    },
+    {
       "source": "training-software",
       "target": "multi-turn-benchmark",
+      "type": "lineage"
+    },
+    {
+      "source": "uicoder",
+      "target": "designer-feedback",
+      "type": "lineage"
+    },
+    {
+      "source": "uicoder",
+      "target": "we-notice",
+      "type": "lineage"
+    },
+    {
+      "source": "designer-feedback",
+      "target": "we-notice",
+      "type": "lineage"
+    },
+    {
+      "source": "mm-spatial",
+      "target": "rooms-from-motion",
+      "type": "lineage"
+    },
+    {
+      "source": "mm-spatial",
+      "target": "immersive-debugging",
+      "type": "lineage"
+    },
+    {
+      "source": "dit-air",
+      "target": "darkdiff",
+      "type": "lineage"
+    },
+    {
+      "source": "unified-open",
+      "target": "atoken",
+      "type": "lineage"
+    },
+    {
+      "source": "speech-foundation",
+      "target": "multimodal-sensor-fusion",
+      "type": "lineage"
+    },
+    {
+      "source": "digital-mental-health",
+      "target": "photoplethysmography",
+      "type": "lineage"
+    },
+    {
+      "source": "enabling",
+      "target": "preamble",
+      "type": "lineage"
+    },
+    {
+      "source": "prose2policy",
+      "target": "preamble",
+      "type": "lineage"
+    },
+    {
+      "source": "safetypairs",
+      "target": "hallucination-span-detection",
+      "type": "lineage"
+    },
+    {
+      "source": "epicache",
+      "target": "rattention",
+      "type": "lineage"
+    },
+    {
+      "source": "epicache",
+      "target": "semantic-caching",
+      "type": "lineage"
+    },
+    {
+      "source": "chipchat",
+      "target": "mirror",
+      "type": "lineage"
+    },
+    {
+      "source": "chipchat",
+      "target": "closing-the-gap",
+      "type": "lineage"
+    },
+    {
+      "source": "augmenting-app",
+      "target": "query-auto-completion",
+      "type": "lineage"
+    },
+    {
+      "source": "proactive-streaming-assistant",
+      "target": "slowfast-llava",
+      "type": "lineage"
+    },
+    {
+      "source": "slowfast-llava",
+      "target": "unigen-1.5",
       "type": "lineage"
     }
   ],
