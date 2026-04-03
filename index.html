@@ -170,7 +170,7 @@ let hovered=null, selected=new Set(); // multi-select
 let activeClusters=new Set(), query='', tlMin=2012, tlMax=2025, scMin=84, scMax=100;
 let targetRotationY=null, targetZoom=null; // for smooth rotate/zoom-to-node
 let isDark=true;
-const RADIUS=5;
+const RADIUS=4;
 
 async function init(){
   scene=new THREE.Scene();
@@ -380,7 +380,7 @@ function buildNodes(){
     p._pos=new THREE.Vector3(x*RADIUS, y*RADIUS, z*RADIUS);
     p._alpha=1; p._targetAlpha=1; p._visible=true;
 
-    const size=0.07+(p.score-80)*0.009;
+    const size=0.10+(p.score-80)*0.012;
     const color=new THREE.Color(clusters[p.cluster]?.color||'#888');
 
     // All nodes are smooth spheres — size differentiates score
